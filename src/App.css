@@ -1,0 +1,19 @@
+body{
+  display: -ms-inline-grid;
+  gap: 50px 50px;
+  
+}
+.card{
+  grid-column-start: 1;
+  grid-column-end: 3;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+    transition: 0.3s;
+  
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card .container {
+  padding: 2px 16px;
+}

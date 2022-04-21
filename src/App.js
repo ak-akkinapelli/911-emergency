@@ -1,9 +1,11 @@
-import './App.css';
+import "./App.css";
+import Data from "./components/data.js";
 
 function App() {
   return (
     <div className="App">
-     <h1>Hi</h1>
+      <h1>Welcome</h1>
+      {<Data />}
     </div>
   );
 }
